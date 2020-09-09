@@ -8,7 +8,6 @@ export default function DisplayContainer() {
 //finding item is already there in cart data or not
     let searchItem = cartData.find(elem=>elem.title===item.title)
 
-    console.log(searchItem)
 
     //condition 
     if(searchItem){
